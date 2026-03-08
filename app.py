@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(override=True)
 
 # Initialize the OpenAI client for NVIDIA API
 # Assuming the API key is set in the Nvd_API environment variable
